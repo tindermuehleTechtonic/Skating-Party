@@ -46,7 +46,7 @@ table {
 /*---global---*/
 body {
 	background-image: url(/assets/IMG_1030.jpeg);
-	color: color: #6B0541;
+	
 }
 
 /*---header---*/
@@ -54,14 +54,11 @@ body {
   background-color: #EA0B8C;
   padding: 30px;
 	text-align: center;
-	color: #6B0541;
-
 }
 
 .header {
   padding: 10px 16px;
   background: #555;
-  
 }
 
 .content {
@@ -78,5 +75,18 @@ body {
   padding-top: 102px;
 }
 /*---main---*/
+/*---unicorn pic---*/
+
+img {opacity:0;
+	-moz-transition: opacity 2s; /* Firefox 4 */
+	-webkit-transition: opacity 2s; /* Safari and Chrome */
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+	}​
+
+iframe {
+	width: 100%;
+	height: auto;
+}
 
 /*---footer---*/
