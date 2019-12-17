@@ -133,27 +133,31 @@ table {
 /*---color codes
 
 /* RGB */
-$color1: rgba(0, 0, 0, 1);
+/*$color1: rgba(0, 0, 0, 1);
 $color2: rgba(0, 79, 255, 1);
 $color3: rgba(49, 175, 212, 1);
 $color4: rgba(144, 45, 65, 1);
 $color5: rgba(255, 0, 127, 1);
+$color: rgba(255, 0, 127, 1);*/
 
-body {
-  background-image: url(/assets/IMG_1030.jpeg);
 
+
+main {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 /*---header---*/
 .top-container {
-  background-color: #EA0B8C;
+  background-color: rgba(255, 0, 127, 1);
   padding: 30px;
   text-align: center;
 }
 
 .header {
   padding: 10px 16px;
-  background: #555;
+  background: rgba(0, 79, 255, 1);
 }
 
 .content {
@@ -170,18 +174,11 @@ body {
   padding-top: 102px;
 }
 
-/*---main---*/
+/*---body---*/
+
 /*---unicorn pic---*/
 
-img {
-  opacity: 0;
-  -moz-transition: opacity 2s;
-  /* Firefox 4 */
-  -webkit-transition: opacity 2s;
-  /* Safari and Chrome */
-  -o-transition: opacity 2s;
-  transition: opacity 2s;
-}
+
 
 ​ iframe {
   width: 100%;
