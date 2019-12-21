@@ -132,25 +132,18 @@ table {
 
 /*---color codes
 
-/* RGB */
-/*$color1: rgba(0, 0, 0, 1);
-$color2: rgba(0, 79, 255, 1);
-$color3: rgba(49, 175, 212, 1);
-$color4: rgba(144, 45, 65, 1);
-$color5: rgba(255, 0, 127, 1);
-$color: rgba(255, 0, 127, 1);*/
+/* RGB
+    $color1: rgba(0, 0, 0, 1);
+    $color2: rgba(0, 79, 255, 1);
+    $color3: rgba(49, 175, 212, 1);
+    $color4: rgba(144, 45, 65, 1);
+    $color5: rgba(255, 0, 127, 1);
+    $color: rgba(255, 0, 127, 1); */
 
-
-
-main {
-  background-color: rgba(0, 0, 0, 1);
-  color: rgba(0, 0, 0, 1);
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-}
 
 /*---header---*/
 .top-container {
-  background-color: rgba(255, 0, 127, 1);
+  background-color: rgb(255, 0, 0);
   padding: 30px;
   text-align: center;
 }
@@ -174,15 +167,12 @@ main {
   padding-top: 102px;
 }
 
-/*---body---*/
-
-/*---unicorn pic---*/
-
-
-
-​ iframe {
-  width: 100%;
-  height: auto;
+/*---main---*/
+main {
+  background-color: black;
+  color: rgba(0, 79, 255, 1);
 }
-
-/*---footer---*/
+/*---unicorn pic---*/
+.unicorn {
+  
+}
