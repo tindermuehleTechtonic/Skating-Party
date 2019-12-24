@@ -1,7 +1,7 @@
 /* Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
 /* RGB */
 /* $color1: rgba(0, 0, 0, 1); black */
-/* $color6: rgba(46,46,46,1); grey */
+/* $color6: rgba(17,17,17,1); grey */
 /* $color2: rgba(0, 79, 255, 1); royal blue */
 /* $color3: rgba(49, 175, 212, 1); light blue*/
 /* $color4: rgba(144, 45, 65, 1); wine */
@@ -23,9 +23,10 @@ font-family: 'Roboto', sans-serif; */
 	text-align: center;
 }
 
-/* .header {
-	
-} */
+.header {
+	background-color: rgba(0, 79, 255, 1)
+
+}
 
 .content {
 	padding: 16px;
@@ -43,7 +44,7 @@ font-family: 'Roboto', sans-serif; */
 
 /*---main---*/
 main {
-	background-color: rgba(46, 46, 46, 1);
+	background-color: rgba(17,17,17,1);
 	border: white solid .3rem;
 }
 
@@ -56,10 +57,10 @@ main {
 }
 
 aside {
-	background-color: rgba(144, 45, 65, 1);
+	background-color: rgba(49, 175, 212, 1);
 		height: auto;
-	width: 90%;
-	margin: 5% 5%;
+
+
 }
 
 iframe {
@@ -67,3 +68,6 @@ iframe {
 }
 
 /*---footer---*/
+footer {
+	background-color: rgba(0, 79, 255, 1);
+}
