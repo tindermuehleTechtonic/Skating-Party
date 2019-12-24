@@ -7,11 +7,11 @@
   <meta name="keywords" content="roller skating Tracks rollerß" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--link to bootStrap-->
+  <link rel="stylesheet" href="css/mainStylesheet.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <meta name="author" content="Tim Indermuehle" />
   <!---link to main stylesheet--->
-  <link rel="stylesheet" href="css/mainStylesheet.css" />
   <!---link to fonts--->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 
@@ -27,36 +27,85 @@
     </div>
     <!-- Nav bar-->
     <nav id="myHeader" class="navbar header navbar-expand-lg navbar-light btn-primary">
+      <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
   </header>
 
   <main>
-    <section>
+    <section class="content-section">
       <img src="/assets/unicorn.100x130.jpeg" class="img-fluid mx-auto d-block" alt="Responsive image">
+      <p>This is the fun part Son of a gun. Let's have a little bit of fun today. That's why I paint - because I can
+        create the kind of world I want - and I can make this world as happy as I want it. Just pretend you are a
+        whisper floating across a mountain.
+        Maybe there's a happy little Evergreen that lives here. Any little thing can be your friend if you let it be.
+        Get tough with it, get strong. </p>
     </section>
+    <aside>
+      <h2>DID YOU KNOW</h2>
+      <p>Roller-skating was invented in 1735 by John Joseph Merlin, a Belgian who famously introduced his new wheeled
+        shoes at a party in London and promptly crashed into a mirror.
 
-   
-
+      </p>
+    </aside>
+    <section class="content-section">
+      <p>This is the fun part Son of a gun. Let's have a little bit of fun today. That's why I paint - because I can
+        create the kind of world I want - and I can make this world as happy as I want it. Just pretend you are a
+        whisper floating across a mountain.
+        Maybe there's a happy little Evergreen that lives here. Any little thing can be your friend if you let it be.
+        Get tough with it, get strong. </p>
+    </section>
+    <section class="content-section">
+      <p>This is the fun part Son of a gun. Let's have a little bit of fun today. That's why I paint - because I can
+        create the kind of world I want - and I can make this world as happy as I want it. Just pretend you are a
+        whisper floating across a mountain.
+        Maybe there's a happy little Evergreen that lives here. Any little thing can be your friend if you let it be.
+        Get tough with it, get strong. </p>
+    </section>
+    <aside>
+      <p>This is the fun part Son of a gun. Let's have a little bit of fun today. That's why I paint - because I can
+        create the kind of world I want - and I can make this world as happy as I want it. Just pretend you are a</p>
+    </aside>
+    <section class="content-section">
+      <p>This is the fun part Son of a gun. Let's have a little bit of fun today. That's why I paint - because I can
+        create the kind of world I want - and I can make this world as happy as I want it. Just pretend you are a
+        whisper floating across a mountain. Maybe there's a happy little Evergreen that lives here. Any little thing can
+        be your friend if you let it be. Get tough with it, get strong. </p>
+    </section>
+    <iframe width="300" height="169" src="https://www.youtube.com/embed/2wUhhONqN5A" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   </main>
 
@@ -74,10 +123,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
+<aside>
+  <h2>BEST SKATING MOVIES EVER</h2>
+  <ul>
+    <li>This is the fun part Son of a gun.</li>
+    <li>This is the fun part Son of a gun.</li>
+    <li>This is the fun part Son of a gun.</li>
+    <li>This is the fun part Son of a gun.</li>
+    <li>This is the fun part Son of a gun.</li>
+  </ul>
+</aside>
 
-
-  <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/2wUhhONqN5A" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 </body>
 
 </html>
