@@ -1,19 +1,183 @@
-/* Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
+/* 
+
+/*---HTML---*/
+
+
+/* html5doctor.com Reset Stylesheet v1.6.1 Last Updated: 2010-09-17 Author: Richard Clark - http: //richclarkdesign.com  
+
+Twitter: @rich_clark */ 
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+
+/*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
 /* RGB */
 /* $color1: rgba(0, 0, 0, 1); black */
-/* $color6: rgba(17,17,17,1); grey */
+/* $color6: rgba(33,33,33,1); grey */
 /* $color2: rgba(0, 79, 255, 1); royal blue */
 /* $color3: rgba(49, 175, 212, 1); light blue*/
 /* $color4: rgba(144, 45, 65, 1); wine */
 /* $color5: rgba(255, 0, 127, 1); pink */
 /* $color7: rgba(255,255,255,1) white */
+/* $color8: rgba(138,138,138,1) text grey*/
 
 /*---fonts---*/
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto', Helvetica, sans-serif;
+font-family: 'Open Sans', Helvetica, sans-serif; */
 
-/*---HTML---*/
 
+
+p, span {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: .85rem;
+}
 
 /*---header---*/
 .top-container {
@@ -25,7 +189,6 @@ font-family: 'Roboto', sans-serif; */
 
 .header {
 	background-color: rgba(0, 79, 255, 1)
-
 }
 
 .content {
@@ -44,22 +207,39 @@ font-family: 'Roboto', sans-serif; */
 
 /*---main---*/
 main {
-	background-color: rgba(17,17,17,1);
-	border: white solid .3rem;
+	background-color: rgb(33, 33, 33);
+	border: white solid .5rem;
 }
 
 .content-section {
 	background-color: rgba(0, 0, 0, 1);
-	color: rgba(255,255,255,1);
-	height: auto;
-	width: 90%;
-	margin: 5% 5%;
+	color: rgba(255, 255, 255, 1);
+	width: 75%;
+	margin: 0 12.5%;
+	padding: 8% 6%;
 }
 
 aside {
 	background-color: rgba(49, 175, 212, 1);
-		height: auto;
+	height: auto;
+}
 
+.largeText  {
+	font-size: 4rem;
+	font-weight: 900;
+	
+	line-height: 4.5rem;
+}
+.blueText {
+	color: rgba(49, 175, 212, 1);
+}
+.greyText {
+	color: rgb(138, 138, 138);
+}
+.spacerLine {
+	border-bottom: rgba(138,138,138,1) solid 5px;
+	width: 80%;
+	height: 10%;
 
 }
 
@@ -71,3 +251,11 @@ iframe {
 footer {
 	background-color: rgba(0, 79, 255, 1);
 }
+
+/*---media breakpoints---*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* col-sm for larger mobile phones (devices with resolutions ≥ 576px);
+	col-md for tablets (≥768px);
+	col-lg for laptops (≥992px);
+	col-xl for desktops (≥1200px) */
