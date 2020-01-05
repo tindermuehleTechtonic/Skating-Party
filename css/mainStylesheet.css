@@ -194,6 +194,10 @@ span {
 .top-container span {
 	font-size: 2rem;
 	font-weight: 900;
+}
+
+#introSection {
+	color: white;
 	
 }
 
@@ -211,6 +215,16 @@ main {
 	padding: 4% 6%;
 }
 
+/*---intro section---*/
+#introSection {
+	/* display: flex; */
+	color: white;
+	background-color: rgba(21, 21, 21, 1);
+	height: 300px;
+	/* margin-bottom: 13%; */
+}
+
+/*---content section---*/
 .content-section {
 	background-color: rgb(21, 21, 21);
 	color: rgba(255, 255, 255, 1);
