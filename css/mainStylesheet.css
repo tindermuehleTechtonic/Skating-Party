@@ -146,6 +146,10 @@ span {
 	font-size: .8rem;
 }
 
+html {
+	
+}
+
 .btn {
 	background-color: rgba(144, 45, 65, 1);
 	color: white;
@@ -197,20 +201,21 @@ span {
 }
 
 #introSection {
-	color: white;
+
 	
 }
 
 /*---------main---------*/
 main {
 	background-color: rgb(38, 37, 37);
-	border: white solid .5rem;
+	border: rgb(255, 255, 255) solid .5rem;
+	color: rgb(235, 235, 235);
 }
 
 #triviaQuestion {
 	width: 75%;
 	background-color: rgba(21, 21, 21, 1);
-	color: white;
+	/* color: white; */
 	margin: 0 12.5%;
 	padding: 4% 6%;
 }
@@ -218,7 +223,7 @@ main {
 /*---intro section---*/
 #introSection {
 	/* display: flex; */
-	color: white;
+	
 	background-color: rgba(21, 21, 21, 1);
 	/* margin-bottom: 13%; */
 }
