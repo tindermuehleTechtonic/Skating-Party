@@ -40,10 +40,6 @@ nav ul {
     list-style:none;
 }
 
-blockquote, q {
-    quotes:none;
-}
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     content:'';
@@ -56,9 +52,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-}
-
-
+} */
 
 /*-----Coolers Color Pallette-----*/
 /*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
@@ -77,9 +71,9 @@ a {
 font-family: 'Open Sans', Helvetica, sans-serif; */
 
 /*----------HTML---------*/
-p,
-span {
+p  {
 	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: rgb(250, 250, 250);
 
 }
 
@@ -132,21 +126,22 @@ h2 {
 
 /*---------main---------*/
 main {
-	background-color: rgb(38, 37, 37);
+	
 	border: rgb(255, 255, 255) solid .5rem;
-	color: rgb(235, 235, 235);
+	color: rgb(227, 227, 227);
 }
 
 /*---intro section---*/
-
-
-
-/*---intro section---*/
 #introSection {
-	
-	padding: 10% 12.5%;
+	padding: 5% 12.5%;
 	background-color: rgba(21, 21, 21, 1);
-	
+	line-height: 1.25em;
+}
+
+#introSection .largeText {
+	margin-bottom: 10%;
+	margin-top: 10%;
+	line-height: 3.5rem;
 }
 
 #introSection img,
@@ -154,8 +149,11 @@ main {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5%;
+}
 
+#introSection img{
+	margin-top: 10%;
+	margin-bottom: 5%;
 }
 
 #triviaQuestion {
