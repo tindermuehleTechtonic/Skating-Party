@@ -58,48 +58,6 @@ a {
     background:transparent;
 }
 
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
 
 
 /*-----Coolers Color Pallette-----*/
@@ -122,8 +80,7 @@ font-family: 'Open Sans', Helvetica, sans-serif; */
 p,
 span {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	margin: 0px;
-	padding: 0px;
+
 }
 
 h1,
@@ -171,16 +128,33 @@ h2 {
 
 /*---header text---*/
 
-.top-container span {
-	/* font-size: 2rem; */
-	font-weight: 900;
-}
+
 
 /*---------main---------*/
 main {
 	background-color: rgb(38, 37, 37);
 	border: rgb(255, 255, 255) solid .5rem;
 	color: rgb(235, 235, 235);
+}
+
+/*---intro section---*/
+
+
+
+/*---intro section---*/
+#introSection {
+	
+	padding: 10% 12.5%;
+	background-color: rgba(21, 21, 21, 1);
+	
+}
+
+#introSection img,
+#introSection {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
 
 }
 
@@ -189,17 +163,8 @@ main {
 	background-color: rgba(21, 21, 21, 1);
 	/* color: white; */
 	margin: 0 12.5%;
-	padding: 4% 6%;
+	
 }
-
-/*---intro section---*/
-#introSection {
-	/* display: flex; */
-
-	background-color: rgba(21, 21, 21, 1);
-	/* margin-bottom: 13%; */
-}
-
 /*---content section---*/
 .content-section {
 	background-color: rgb(21, 21, 21);
@@ -227,7 +192,7 @@ main {
 /*---spacer css---*/
 .spacerLine {
 	border-bottom: rgba(33, 33, 33, 1) solid 1px;
-	margin: 15px 0;
+	margin: 25px 0;
 }
 
 .spacer {
