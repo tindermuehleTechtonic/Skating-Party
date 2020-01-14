@@ -122,7 +122,7 @@ a {
 	background: transparent;
 }
 
-*/
+
 /*-----Coolers Color Pallette-----*/
 /*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
 /* $color1: rgba(21, 21, 21, 1); black */
@@ -141,11 +141,10 @@ a {
 font-family: 'Open Sans', Helvetica, sans-serif; */
 
 /*----------HTML---------*/
-p {
+p, span {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	color: rgba(250, 250, 250,1);
-	
-
+	line-height: 1.25rem;
 }
 
 h1,
@@ -204,7 +203,7 @@ main {
 #introSection {
 	padding: 5% 12.5%;
 	background-color: rgba(21, 21, 21, 1);
-	line-height: 1.25em;
+	/* line-height: 1.25em; */
 }
 
 #introSection .largeText {
@@ -231,17 +230,30 @@ main {
 	line-height: 1.25rem;
 }
 
-
-
-
-
 /*---content section---*/
+/*---presale section---*/
+#preSale {
+	width: 75%;
+	margin: 18% 12.5%;
+	font-size: .75rem;
+	
+}
+
+#preSale h2 { 
+	font-size: 1.3rem;
+	margin-bottom: 5%;
+}
 .content-section {
 	background-color: rgb(21, 21, 21);
 	color: rgba(255, 255, 255, 1);
 	width: 75%;
-	margin: 0 12.5%;
+	margin: 10% 12.5%;
 	padding: 4% 6%;
+}
+
+.content-section h2 {
+	font-size: 1.75rem;
+	
 }
 
 .largeText {
@@ -286,8 +298,6 @@ main {
 	color: rgba(21, 21, 21, 1);
 	margin-bottom: 0;
 }
-
-
 
 /*---footer---*/
 footer {
