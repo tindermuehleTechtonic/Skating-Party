@@ -6,54 +6,123 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/* font-size: 100%; */
+	vertical-align: baseline;
+	background: transparent;
 }
 
 body {
-    line-height:1;
+	line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 
 nav ul {
-    list-style:none;
+	list-style: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-} */
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
 
+*/
 /*-----Coolers Color Pallette-----*/
 /*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
 /* $color1: rgba(21, 21, 21, 1); black */
@@ -65,15 +134,17 @@ a {
 /* $color5: rgba(255, 0, 127, 1); pink */
 /* $color7: rgba(255,255,255,1) white */
 /* $color8: rgba(138,138,138,1) text grey*/
+/* $color8: rgb(250, 250, 250)  p span text grey*/
 
 /*--------Google Fonts--------*/
 /* font-family: 'Roboto', Helvetica, sans-serif;
 font-family: 'Open Sans', Helvetica, sans-serif; */
 
 /*----------HTML---------*/
-p  {
+p {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	color: rgb(250, 250, 250);
+	color: rgba(250, 250, 250,1);
+	
 
 }
 
@@ -122,13 +193,11 @@ h2 {
 
 /*---header text---*/
 
-
-
 /*---------main---------*/
 main {
-	
 	border: rgb(255, 255, 255) solid .5rem;
 	color: rgb(227, 227, 227);
+	background-color: rgba(33,33,33,1);
 }
 
 /*---intro section---*/
@@ -151,18 +220,21 @@ main {
 	margin-right: auto;
 }
 
-#introSection img{
+#introSection img {
 	margin-top: 10%;
 	margin-bottom: 5%;
 }
 
-#triviaQuestion {
-	width: 75%;
-	background-color: rgba(21, 21, 21, 1);
-	/* color: white; */
-	margin: 0 12.5%;
-	
+#triviaSection {
+	background-color: rgba(144, 45, 65, 1);
+	padding: 10% 12.5%;
+	line-height: 1.25rem;
 }
+
+
+
+
+
 /*---content section---*/
 .content-section {
 	background-color: rgb(21, 21, 21);
