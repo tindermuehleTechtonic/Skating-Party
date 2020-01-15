@@ -197,6 +197,7 @@ main {
 	border: rgb(255, 255, 255) solid .5rem;
 	color: rgb(227, 227, 227);
 	background-color: rgba(33,33,33,1);
+	font-size: .75rem;
 }
 
 /*---intro section---*/
@@ -232,22 +233,27 @@ main {
 
 /*---content section---*/
 /*---presale section---*/
-#preSale {
+.preSale {
 	width: 75%;
-	margin: 18% 12.5%;
+	margin: 20% 12.5%;
 	font-size: .75rem;
-	
 }
 
-#preSale h2 { 
+.preSale h2 { 
 	font-size: 1.3rem;
 	margin-bottom: 5%;
 }
+
+.preSale p { 
+	color: rgba(49, 175, 212, 1);
+}
+
+
 .content-section {
 	background-color: rgb(21, 21, 21);
 	color: rgba(255, 255, 255, 1);
 	width: 75%;
-	margin: 10% 12.5%;
+	margin: 15% 12.5%;
 	padding: 4% 6%;
 }
 
@@ -282,20 +288,38 @@ main {
 }
 
 /*---best movies---*/
-#bestMovies,
-#bestMovies a {
+#bestMovies
+ {
+	padding: 10% 12.5%;
 	background-color: rgba(49, 175, 212, 1);
-	color: rgba(33, 33, 33, 1);
+	
+	
 }
 
 #bestMovies ul {
-	margin-bottom: 0;
+	padding: 2%;
+	
+	list-style-type: none;
+	font-size: 1.5rem;
+	
+	line-height: 2rem;
+	
+
 }
+
+#bestMovies a {
+	color: rgba(21, 21, 21, 1);
+	text-decoration: none;
+	padding: 5% 0;
+}
+
+
+
 
 /*---future events---*/
 #futureEvents {
 	background-color: rgba(255, 255, 255, 1);
-	color: rgba(21, 21, 21, 1);
+	
 	margin-bottom: 0;
 }
 
