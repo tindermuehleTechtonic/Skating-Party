@@ -128,7 +128,7 @@ a {
 /* $color1: rgba(21, 21, 21, 1); black */
 /*Hex #151515
 /* $color6: rgba(33,33,33,1); background grey */
-/* $color2: rgba(0, 79, 255, 1); royal blue */
+/* $color2: ; royal blue */
 /* $color3: rgba(49, 175, 212, 1); light blue*/
 /* $color4: rgba(144, 45, 65, 1); wine */
 /* $color5: rgba(255, 0, 127, 1); pink */
@@ -141,7 +141,7 @@ a {
 font-family: 'Open Sans', Helvetica, sans-serif; */
 
 /*----------HTML---------*/
-p, span {
+p, span, a, div {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	color: rgba(250, 250, 250,1);
 	line-height: 1.25rem;
@@ -290,30 +290,33 @@ main {
 /*---best movies---*/
 #bestMovies
  {
-	padding: 10% 12.5%;
+
 	background-color: rgba(49, 175, 212, 1);
-	
-	
+	padding: 20% 0;
 }
 
-#bestMovies ul {
-	padding: 2%;
-	
+#bestMovies h2{
+	padding: 0 12.5% 5% 12.5%;
+}
+#bestMovies a {
+	padding:  2% 12.5%;
+	display: block;
 	list-style-type: none;
 	font-size: 1.5rem;
 	
-	line-height: 2rem;
-	
-
-}
-
-#bestMovies a {
-	color: rgba(21, 21, 21, 1);
+	line-height: 2.5rem;
+	font-weight: 900;
+	color: rgba(33,33,33,1);
 	text-decoration: none;
-	padding: 5% 0;
 }
 
-
+#bestMovies a:hover {
+	background-color: rgba(255, 0, 127, 1);
+	color: yellow;
+	
+	outline: 2px solid rgba(0, 79, 255, 1);
+	
+}
 
 
 /*---future events---*/
