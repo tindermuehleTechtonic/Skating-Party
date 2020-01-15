@@ -163,6 +163,12 @@ h2 {
 	margin-top: 15%;
 }
 
+.btn:hover {
+	background-color: white;
+	color: rgba(144, 45, 65, 1);
+
+}
+
 /*----------header-----------*/
 /*---sticky header css---*/
 .top-container {
