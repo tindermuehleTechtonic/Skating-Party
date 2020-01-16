@@ -141,9 +141,12 @@ a {
 font-family: 'Open Sans', Helvetica, sans-serif; */
 
 /*----------HTML---------*/
-p, span, a, div {
+p,
+span,
+a,
+div {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	color: rgba(250, 250, 250,1);
+	color: rgba(250, 250, 250, 1);
 	line-height: 1.25rem;
 }
 
@@ -202,7 +205,7 @@ h2 {
 main {
 	border: rgb(255, 255, 255) solid .5rem;
 	color: rgb(227, 227, 227);
-	background-color: rgba(33,33,33,1);
+	background-color: rgba(33, 33, 33, 1);
 	font-size: .75rem;
 }
 
@@ -232,9 +235,8 @@ main {
 }
 
 #triviaSection {
-	background-color: rgba(144, 45, 65, 1);
+	background-color: rgba(33,33,33,1);
 	padding: 10% 12.5%;
-	line-height: 1.25rem;
 }
 
 /*---content section---*/
@@ -245,12 +247,12 @@ main {
 	font-size: .75rem;
 }
 
-.preSale h2 { 
+.preSale h2 {
 	font-size: 1.3rem;
 	margin-bottom: 5%;
 }
 
-.preSale p { 
+.preSale p {
 	color: rgba(49, 175, 212, 1);
 }
 
@@ -265,7 +267,7 @@ main {
 
 .content-section h2 {
 	font-size: 1.75rem;
-	
+
 }
 
 .largeText {
@@ -294,42 +296,50 @@ main {
 }
 
 /*---best movies---*/
-#bestMovies
- {
+#bestMovies {
 
 	background-color: rgba(49, 175, 212, 1);
-	padding: 20% 0;
+	padding: 10% 0;
 }
 
-#bestMovies h2{
+#bestMovies h2 {
 	padding: 0 12.5% 5% 12.5%;
 }
+
 #bestMovies a {
-	padding:  2% 12.5%;
+	padding: 2% 12.5%;
 	display: block;
 	list-style-type: none;
 	font-size: 1.5rem;
-	
+
 	line-height: 2.5rem;
 	font-weight: 900;
-	color: rgba(33,33,33,1);
+	color: rgba(33, 33, 33, 1);
 	text-decoration: none;
 }
 
 #bestMovies a:hover {
 	background-color: rgba(255, 0, 127, 1);
 	color: yellow;
-	
 	outline: 2px solid rgba(0, 79, 255, 1);
-	
 }
 
 
 /*---future events---*/
 #futureEvents {
-	background-color: rgba(255, 255, 255, 1);
-	
-	margin-bottom: 0;
+	background-color: rgba(33,33,33,1);
+	padding: 10%;
+}
+
+#futureEvents p{
+padding: 0%;
+}
+
+
+#futureEvents li{
+margin-bottom: 7.5%;
+
+	list-style: none;
 }
 
 /*---footer---*/
