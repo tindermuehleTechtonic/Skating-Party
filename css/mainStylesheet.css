@@ -82,6 +82,7 @@ video {
 	/* font-size: 100%; */
 	vertical-align: baseline;
 	background: transparent;
+	list-style: none;
 }
 
 body {
@@ -169,7 +170,6 @@ h2 {
 .btn:hover {
 	background-color: white;
 	color: rgba(144, 45, 65, 1);
-
 }
 
 /*----------header-----------*/
@@ -211,8 +211,9 @@ main {
 
 /*---intro section---*/
 #introSection {
-	padding: 5% 12.5%;
+	padding: 5% 12.5% 15%;
 	background-color: rgba(21, 21, 21, 1);
+	display: block;
 	/* line-height: 1.25em; */
 }
 
@@ -222,20 +223,22 @@ main {
 	line-height: 3.5rem;
 }
 
-#introSection img,
-#introSection {
-	display: block;
+.icons {
+	display: flex;
+	flex-direction: row;
 	margin-left: auto;
 	margin-right: auto;
+	width: 80%;
+	padding: .5re;
+	margin-top: 7%;
 }
 
-#introSection img {
-	margin-top: 10%;
-	margin-bottom: 5%;
+.icons img {
+	margin-right: .75rem;
 }
-
+/*---trivia section---*/
 #triviaSection {
-	background-color: rgba(33,33,33,1);
+	background-color: rgba(33, 33, 33, 1);
 	padding: 10% 12.5%;
 }
 
@@ -255,7 +258,6 @@ main {
 .preSale p {
 	color: rgba(49, 175, 212, 1);
 }
-
 
 .content-section {
 	background-color: rgb(21, 21, 21);
@@ -312,8 +314,8 @@ main {
 	list-style-type: none;
 	font-size: 1.5rem;
 
-	line-height: 2.5rem;
-	font-weight: 900;
+	line-height: 2rem;
+	font-weight: 00;
 	color: rgba(33, 33, 33, 1);
 	text-decoration: none;
 }
@@ -324,29 +326,77 @@ main {
 	outline: 2px solid rgba(0, 79, 255, 1);
 }
 
-
 /*---future events---*/
 #futureEvents {
-	background-color: rgba(33,33,33,1);
+	background-color: rgba(33, 33, 33, 1);
 	padding: 10%;
 }
 
-#futureEvents p{
-padding: 0%;
+#futureEvents p {
+	padding: 0%;
 }
 
-
-#futureEvents li{
-margin-bottom: 7.5%;
-
-	list-style: none;
+#futureEvents li {
+	margin-bottom: 7.5%;
+	
 }
 
 /*---footer---*/
 footer {
 	background-color: rgba(21, 21, 21, 1);
+}
 
+footer span {
+	display: inline-block;
+}
+
+footer p {
+	color: rgba(255, 0, 127, 1);
+}
+
+footer img {
+	padding-left: 1rem;
 }
 
 
+#copyRightInfo {
+	margin: 0 12.5%;
+	width: 75%;
+	height: 5rem;
+}
+
+#copyRightInfo p {
+	vertical-align: baseline;
+	color: rgba(49, 175, 212, 1);
+	padding: 5% 0;
+	display: inline-block;
+}
+
 /*---media breakpoints---*/
+
+@media (min-width: 992px) {
+	main {
+		margin: 0 15%;
+		background-color: red;
+		border: 0;
+	}
+
+	.flexContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	
+	
+	}
+}
+
+
+/*Small devices (landscape phones, 576px and up)
+/* @media (min-width: 576px) { ... }* */
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }*/
+
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
