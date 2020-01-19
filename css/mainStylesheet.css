@@ -247,11 +247,12 @@ main {
 	padding: 20px 12.5%;
 	background-color: rgba(21, 21, 21, 1);
 	display: block;
+
 }
 
 #introSection .largeText {
-	margin-bottom: 1;
-	margin-top: 10%;
+	font-size: xxx-large;
+	margin-top: 1em;
 	line-height: 3.5rem;
 	padding-bottom: .75em;
 }
@@ -333,6 +334,7 @@ main {
 #waiverSection h2 {
 	padding: 0 0 .75em;
 }
+
 /*---best movies---*/
 #bestMovies {
 
@@ -438,6 +440,16 @@ span a:hover {
 	main {
 		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
 	}
+
+	#asideSections {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+#asideSections aside {
+	width: 50%;
 }
 
 /* Large devices (desktops, 992px and up)*/
