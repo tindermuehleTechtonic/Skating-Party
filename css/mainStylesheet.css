@@ -126,11 +126,11 @@ a {
 
 /*-----Coolers Color Pallette-----*/
 /*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
-/* $color1: rgba(21, 21, 21, 1); black */
+/* $color1: ; black */
 /*Hex #151515
 /* $color6: rgba(33,33,33,1); background grey */
 /* $color2: ; royal blue */
-/* $color3: rgba(49, 175, 212, 1); light blue*/
+/* $color3: ; light blue*/
 /* $color4: rgba(144, 45, 65, 1); wine */
 /* $color5: rgba(255, 0, 127, 1); pink */
 /* $color7: rgba(255,255,255,1) white */
@@ -180,13 +180,23 @@ font-family: 'Open Sans', Helvetica, sans-serif; */
 	color: rgba(144, 45, 65, 1);
 }
 
+/*---grey spacer line---*/
+.spacerLine {
+	border-bottom: rgba(33, 33, 33, 1) solid 1px;
+	margin: 25px 0;
+}
+
+.spacer {
+	height: 20px;
+}
+
 /*---font/text styling---*/
 p,
 span,
 a,
 div {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	color: rgba(250, 250, 250, 1);
+	color: rgb(218, 217, 217);
 	line-height: 1.25rem;
 }
 
@@ -240,9 +250,10 @@ main {
 }
 
 #introSection .largeText {
-	margin-bottom: 10%;
+	margin-bottom: 1;
 	margin-top: 10%;
 	line-height: 3.5rem;
+	padding-bottom: .75em;
 }
 
 .icons {
@@ -251,7 +262,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-	padding: .5re;
+	padding: .5rem;
 	margin-top: 7%;
 }
 
@@ -263,14 +274,14 @@ main {
 #triviaSection {
 	background-color: rgb(21, 21, 21);
 	color: rgba(144, 45, 65, 1);
-	width: 75%;
-	margin: 15% 12.5%;
-	padding: 4% 6%;
+	padding: 5em 12.5%;
+
 	line-height: 5em;
 }
 
 #triviaSection p {
 	color: rgba(49, 175, 212, 1);
+	padding-top: 1em;
 }
 
 
@@ -313,16 +324,15 @@ main {
 
 }
 
-/*---spacer css---*/
-.spacerLine {
-	border-bottom: rgba(33, 33, 33, 1) solid 1px;
-	margin: 25px 0;
+/*---waiver---*/
+#waiverSection {
+	padding: 0 12.5% 5em;
+	color: rgba(49, 175, 212, 1);
 }
 
-.spacer {
-	height: 20px;
+#waiverSection h2 {
+	padding: 0 0 .75em;
 }
-
 /*---best movies---*/
 #bestMovies {
 
@@ -353,18 +363,20 @@ main {
 }
 
 /*---map section---*/
-.map-responsive{
-	overflow:hidden;
-	padding-bottom:56.25%;
-	position:relative;
-	height:0;
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+	margin: 1em 1em;
 }
-.map-responsive iframe{
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	position:absolute;
+
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 /*---future events---*/
@@ -421,21 +433,26 @@ span a:hover {
 }
 
 /*---media breakpoints---*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	main {
+		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+	}
+}
 
+/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	html {
-	
-		
-		background-color: rgba(21, 21, 21, 1); 
-	
-	} 
+		background-color: rgba(21, 21, 21, 1);
+	}
+
 
 	main {
 		margin: 0 10%;
-	 border-color:  black;
-	 border: 500px;
+		border-color: black;
+		border: 500px;
 		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
-	} 
+	}
 
 	#introSection .flexContainer {
 		display: flex;
@@ -443,11 +460,21 @@ span a:hover {
 		flex-flow: row;
 	}
 
+	.icons img {
+		width: 50px;
+		height: 50px;
+	}
+
+	#ticketSaleSection {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
 	.content-section {
 		padding: 0;
-		margin: 20px; 
+		margin: 20px;
 		width: 400px;
 		padding: 4% 6%;
-	
-	} 
+	}
 }
