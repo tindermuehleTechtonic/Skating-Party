@@ -142,8 +142,6 @@ a {
 font-family: 'Open Sans', Helvetica, sans-serif; */
 
 /*----------HTML and global---------*/
-
-
 /*---button styling---*/
 .btn {
 	background-color: rgba(144, 45, 65, 1);
@@ -178,6 +176,10 @@ font-family: 'Open Sans', Helvetica, sans-serif; */
 
 .wineText {
 	color: rgba(144, 45, 65, 1);
+}
+
+.blackText {
+	color: #151515;
 }
 
 /*---grey spacer line---*/
@@ -441,12 +443,21 @@ span a:hover {
 		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
 	}
 
+	#introSection .flexContainer {
+		display: flex;
+		justify-content: space-around;
+		flex-flow: row;
+	}
+
+
+
+
 	#asideSections {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 	}
-}
+
 
 #asideSections aside {
 	width: 50%;
@@ -457,7 +468,6 @@ span a:hover {
 	html {
 		background-color: rgba(21, 21, 21, 1);
 	}
-
 
 	main {
 		margin: 0 10%;
@@ -489,4 +499,5 @@ span a:hover {
 		width: 400px;
 		padding: 4% 6%;
 	}
+}
 }
