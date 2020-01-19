@@ -176,6 +176,10 @@ font-family: 'Open Sans', Helvetica, sans-serif; */
 	color: rgb(138, 138, 138);
 }
 
+.wineText {
+	color: rgba(144, 45, 65, 1);
+}
+
 /*---font/text styling---*/
 p,
 span,
@@ -190,6 +194,7 @@ h1,
 h2 {
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
+
 /*----------header-----------*/
 /*---sticky header---*/
 .top-container {
@@ -215,7 +220,7 @@ h2 {
 
 .header {
 	background-color: rgba(0, 79, 255, 1);
-	color: white !important;
+
 
 }
 
@@ -229,10 +234,9 @@ main {
 
 /*---intro section---*/
 #introSection {
-	padding: 5% 12.5% 15%;
+	padding: 20px 12.5%;
 	background-color: rgba(21, 21, 21, 1);
 	display: block;
-	/* line-height: 1.25em; */
 }
 
 #introSection .largeText {
@@ -257,9 +261,18 @@ main {
 
 /*---trivia section---*/
 #triviaSection {
-	background-color: rgba(33, 33, 33, 1);
-	padding: 10% 12.5%;
+	background-color: rgb(21, 21, 21);
+	color: rgba(144, 45, 65, 1);
+	width: 75%;
+	margin: 15% 12.5%;
+	padding: 4% 6%;
+	line-height: 5em;
 }
+
+#triviaSection p {
+	color: rgba(49, 175, 212, 1);
+}
+
 
 
 /*---presale section---*/
@@ -339,6 +352,21 @@ main {
 	outline: 2px solid rgba(0, 79, 255, 1);
 }
 
+/*---map section---*/
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
 /*---future events---*/
 #futureEvents {
 	background-color: rgba(33, 33, 33, 1);
@@ -395,14 +423,31 @@ span a:hover {
 /*---media breakpoints---*/
 
 @media (min-width: 992px) {
+	html {
+	
+		
+		background-color: rgba(21, 21, 21, 1); 
+	
+	} 
+
 	main {
-		margin: 0 15%;
-		border: 0;
+		margin: 0 10%;
+	 border-color:  black;
+	 border: 500px;
+		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+	} 
+
+	#introSection .flexContainer {
+		display: flex;
+		justify-content: space-around;
+		flex-flow: row;
 	}
 
-	.flexContainer {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
+	.content-section {
+		padding: 0;
+		margin: 20px; 
+		width: 400px;
+		padding: 4% 6%;
+	
+	} 
 }
