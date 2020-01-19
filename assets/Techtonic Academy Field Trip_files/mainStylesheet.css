@@ -1,0 +1,395 @@
+/*---css resets---*/
+/*---html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/* font-size: 100%; */
+	vertical-align: baseline;
+	background: transparent;
+	list-style: none;
+}
+
+body {
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+/*-----Coolers Color Pallette-----*/
+/*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
+/* $color1: rgba(21, 21, 21, 1); black */
+/*Hex #151515
+/* $color6: rgba(33,33,33,1); background grey */
+/* $color2: ; royal blue */
+/* $color3: rgba(49, 175, 212, 1); light blue*/
+/* $color4: rgba(144, 45, 65, 1); wine */
+/* $color5: rgba(255, 0, 127, 1); pink */
+/* $color7: rgba(255,255,255,1) white */
+/* $color8: rgba(138,138,138,1) text grey*/
+/* $color8: rgb(250, 250, 250)  p span text grey*/
+
+/*--------Google Fonts--------*/
+/* font-family: 'Roboto', Helvetica, sans-serif;
+font-family: 'Open Sans', Helvetica, sans-serif; */
+
+/*----------HTML---------*/
+p,
+span,
+a,
+div {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: rgba(250, 250, 250, 1);
+	line-height: 1.25rem;
+}
+
+h1,
+h2 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.btn {
+	background-color: rgba(144, 45, 65, 1);
+	color: white;
+	width: 100%;
+	height: 4.3rem;
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding-top: .8em;
+	margin-top: 15%;
+}
+
+.btn:hover {
+	background-color: white;
+	color: rgba(144, 45, 65, 1);
+}
+
+/*----------header-----------*/
+/*---sticky header css---*/
+.top-container {
+	background-color: rgba(255, 0, 127, 1);
+	color: yellow;
+	padding: 30px;
+	text-align: center;
+}
+
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky+.content {
+	padding-top: 102px;
+}
+
+.header {
+	background-color: rgba(0, 79, 255, 1)
+}
+
+/*---header text---*/
+
+/*---------main---------*/
+main {
+	border: rgb(255, 255, 255) solid .5rem;
+	color: rgb(227, 227, 227);
+	background-color: rgba(33, 33, 33, 1);
+	font-size: .75rem;
+}
+
+/*---intro section---*/
+#introSection {
+	padding: 5% 12.5% 15%;
+	background-color: rgba(21, 21, 21, 1);
+	display: block;
+	/* line-height: 1.25em; */
+}
+
+#introSection .largeText {
+	margin-bottom: 10%;
+	margin-top: 10%;
+	line-height: 3.5rem;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding: .5re;
+	margin-top: 7%;
+}
+
+.icons img {
+	margin-right: .75rem;
+}
+/*---trivia section---*/
+#triviaSection {
+	background-color: rgba(33, 33, 33, 1);
+	padding: 10% 12.5%;
+}
+
+/*---content section---*/
+/*---presale section---*/
+.preSale {
+	width: 75%;
+	margin: 20% 12.5%;
+	font-size: .75rem;
+}
+
+.preSale h2 {
+	font-size: 1.3rem;
+	margin-bottom: 5%;
+}
+
+.preSale p {
+	color: rgba(49, 175, 212, 1);
+}
+
+.content-section {
+	background-color: rgb(21, 21, 21);
+	color: rgba(255, 255, 255, 1);
+	width: 75%;
+	margin: 15% 12.5%;
+	padding: 4% 6%;
+}
+
+.content-section h2 {
+	font-size: 1.75rem;
+
+}
+
+.largeText {
+	font-size: 4rem;
+	font-weight: 900;
+	line-height: 4.5rem;
+}
+
+.blueText {
+	color: rgba(49, 175, 212, 1);
+	padding: 0 0 10px 0;
+}
+
+.greyText {
+	color: rgb(138, 138, 138);
+}
+
+/*---spacer css---*/
+.spacerLine {
+	border-bottom: rgba(33, 33, 33, 1) solid 1px;
+	margin: 25px 0;
+}
+
+.spacer {
+	height: 20px;
+}
+
+/*---best movies---*/
+#bestMovies {
+
+	background-color: rgba(49, 175, 212, 1);
+	padding: 10% 0;
+}
+
+#bestMovies h2 {
+	padding: 0 12.5% 5% 12.5%;
+}
+
+#bestMovies a {
+	padding: 2% 12.5%;
+	display: block;
+	list-style-type: none;
+	font-size: 1.5rem;
+
+	line-height: 2rem;
+	font-weight: 00;
+	color: rgba(33, 33, 33, 1);
+	text-decoration: none;
+}
+
+#bestMovies a:hover {
+	background-color: rgba(255, 0, 127, 1);
+	color: yellow;
+	outline: 2px solid rgba(0, 79, 255, 1);
+}
+
+/*---future events---*/
+#futureEvents {
+	background-color: rgba(33, 33, 33, 1);
+	padding: 10%;
+}
+
+#futureEvents p {
+	padding: 0%;
+}
+
+#futureEvents li {
+	margin-bottom: 7.5%;
+	
+}
+
+/*---footer---*/
+footer {
+	background-color: rgba(21, 21, 21, 1);
+}
+
+footer span {
+	display: inline-block;
+}
+
+footer p {
+	color: rgba(255, 0, 127, 1);
+}
+
+footer img {
+	padding: 0 .5rem;
+}
+
+.footerFlexContainer {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 2rem 0;
+}
+
+#copyRightInfo {
+	padding-bottom: 1rem;
+}
+
+#copyRightInfo p {
+	vertical-align: baseline;
+	color: rgba(49, 175, 212, 1);
+	display: inline-block;
+}
+
+footer a:hover,
+span a:hover  {
+	color: rgba(255, 0, 127, 1);
+}
+
+/*---media breakpoints---*/
+
+@media (min-width: 992px) {
+	main {
+		margin: 0 15%;
+		border: 0;
+	}
+
+	.flexContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
