@@ -75,14 +75,13 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	/* font-size: 100%; */
-	vertical-align: baseline;
 	background: transparent;
+	border: 0;
 	list-style: none;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
 
 body {
@@ -122,7 +121,6 @@ a {
 	vertical-align: baseline;
 	background: transparent;
 }
-
 
 /*-----Coolers Color Pallette-----*/
 /*Coolors Exported Palette - coolors.co/000000-004fff-31afd4-902d41-ff007f */
@@ -197,8 +195,8 @@ p,
 span,
 a,
 div {
-	font-family: 'Open Sans', Helvetica, sans-serif;
 	color: rgb(218, 217, 217);
+	font-family: 'Open Sans', Helvetica, sans-serif;
 	line-height: 1.25rem;
 }
 
@@ -232,30 +230,27 @@ h2 {
 
 .header {
 	background-color: rgba(0, 79, 255, 1);
-
-
 }
 
 /*---------main---------*/
 main {
+	background-color: rgba(33, 33, 33, 1);
 	border: rgb(255, 255, 255) solid .5rem;
 	color: rgb(227, 227, 227);
-	background-color: rgba(33, 33, 33, 1);
 	font-size: .75rem;
 }
 
 /*---intro section---*/
 #introSection {
-	padding: 20px 12.5%;
 	background-color: rgba(21, 21, 21, 1);
 	display: block;
-
+	padding: 20px 12.5%;
 }
 
 #introSection .largeText {
 	font-size: xxx-large;
-	margin-top: 1em;
 	line-height: 3.5rem;
+	margin-top: 1em;
 	padding-bottom: .75em;
 }
 
@@ -264,9 +259,9 @@ main {
 	flex-direction: row;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
-	padding: .5rem;
 	margin-top: 7%;
+	padding: .5rem;
+	width: 80%;
 }
 
 .icons img {
@@ -277,9 +272,8 @@ main {
 #triviaSection {
 	background-color: rgb(21, 21, 21);
 	color: rgba(144, 45, 65, 1);
-	padding: 5em 12.5%;
-
 	line-height: 5em;
+	padding: 5em 12.5%;
 }
 
 #triviaSection p {
@@ -291,10 +285,13 @@ main {
 
 /*---presale section---*/
 .preSale {
-	width: 75%;
-	margin: 3em 12.5%;
 	font-size: .75rem;
+	margin: 3em 12.5%;
+	width: 75%;
+}
 
+h2 {
+	color: rgba(138, 138, 138, 1);
 }
 
 .preSale h2 {
@@ -318,20 +315,19 @@ main {
 .content-section {
 	background-color: rgb(21, 21, 21);
 	color: rgba(255, 255, 255, 1);
-	width: 75%;
 	margin: 15% 12.5%;
 	padding: 4% 6%;
+	width: 75%;
 }
 
 .content-section h2 {
 	font-size: 1.75rem;
-
 }
 
 /*---waiver---*/
 #waiverSection {
-	padding: 0 12.5% 5em;
 	color: rgba(49, 175, 212, 1);
+	padding: 0 12.5% 5em;
 }
 
 #waiverSection h2 {
@@ -340,48 +336,47 @@ main {
 
 /*---best movies---*/
 #bestMovies {
-
 	background-color: rgba(49, 175, 212, 1);
 	padding: 10% 0;
 }
 
 #bestMovies h2 {
+	color: white;
 	padding: 0 12.5% 5% 12.5%;
 }
 
 #bestMovies a {
-	padding: 2% 12.5%;
-	display: block;
-	list-style-type: none;
-	font-size: 1.5rem;
-
-	line-height: 2rem;
-	font-weight: 00;
 	color: rgba(33, 33, 33, 1);
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 00;
+	line-height: 2rem;
+	list-style-type: none;
+	padding: 2% 12.5%;
 	text-decoration: none;
 }
 
 #bestMovies a:hover {
 	background-color: rgba(255, 0, 127, 1);
 	color: yellow;
-	outline: 2px solid rgba(0, 79, 255, 1);
+
 }
 
 /*---map section---*/
 .map-responsive {
+	height: 0;
+	margin: 1em 1em;
 	overflow: hidden;
 	padding-bottom: 56.25%;
 	position: relative;
-	height: 0;
-	margin: 1em 1em;
 }
 
 .map-responsive iframe {
-	left: 0;
-	top: 0;
 	height: 100%;
-	width: 100%;
+	left: 0;
 	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 /*---future events---*/
@@ -396,7 +391,6 @@ main {
 
 #futureEvents li {
 	margin-bottom: 1.5em;
-
 }
 
 /*---footer---*/
@@ -427,9 +421,9 @@ footer img {
 }
 
 #copyRightInfo p {
-	vertical-align: baseline;
 	color: rgba(49, 175, 212, 1);
 	display: inline-block;
+	vertical-align: baseline;
 }
 
 footer a:hover,
@@ -446,25 +440,39 @@ span a:hover {
 
 	#introSection .flexContainer {
 		display: flex;
-		justify-content: space-around;
 		flex-flow: row;
+		justify-content: space-around;
 	}
-
-	
 
 	#asideSections {
 		display: flex;
-		flex-direction: row;
 		justify-content: space-around;
+		flex-direction: row;
 	}
+
 	#skatePic {
 		padding-top: 5em;
 	}
 
-#asideSections aside {
-	width: 50%;
+	#preSale p,
+	#waiverSection p {
+		color: #151515;
+		font-size: 1rem;
+		line-height: 1.5em;
+	}
+
+	#asideSections aside {
+		width: 50%;
+	}
+
+	#introSection span,
+	#triviaSection p,
+	nav,
+	.icons p {
+		font-size: rem;
+	}
 }
-}
+
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	html {
@@ -472,21 +480,29 @@ span a:hover {
 	}
 
 	main {
-		margin: 0 10%;
+		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
 		border-color: black;
 		border: 500px;
-		background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+		margin: 0 10%;
 	}
 
 	#introSection .flexContainer {
 		display: flex;
-		justify-content: space-around;
 		flex-flow: row;
+		justify-content: space-around;
+	}
+
+	#introSection span,
+	#triviaSection p,
+	nav,
+	.icons p {
+		font-size: 1.25rem;
+		line-height: 1.5em;
 	}
 
 	.icons img {
-		width: 50px;
 		height: 50px;
+		width: 50px;
 	}
 
 	#ticketSaleSection {
@@ -496,12 +512,25 @@ span a:hover {
 	}
 
 	.content-section {
-		padding: 0;
 		margin: 20px;
-		width: 400px;
 		padding: 4% 6%;
+		width: 400px;
 	}
+
+	#preSale p,
+	.content-section p {
+		line-height: 1.5em;
+	}
+
 	#skatePic {
-		padding-top: 5em;
+		padding: 5em 0;
+	}
+
+	h2 {
+		color: #151515;
+	}
+
+	#futureEvents h2 {
+		color: white;
 	}
 }
